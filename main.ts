@@ -120,27 +120,25 @@ async function uninstall()
   }
 }
 
-(async ()=>{
-  while(true)
+while(true)
+{
+  console.log("\x1bc");
+  let info=
+  [
+    "home",
+    "0) exit",
+    "1) add kali repository (u can manually delete repository by removing sources from /etc/apt/sources.list, then use \"apt-key del\")",
+    "2) install",
+    "3) uninstall",
+  ].join("\n")+"\noption: ";
+  let opt=await rl.question(info);
+  if(opt=="0")
   {
     console.log("\x1bc");
-    let info=
-    [
-      "home",
-      "0) exit",
-      "1) add kali repository (u can manually delete repository by removing sources from /etc/apt/sources.list, then use \"apt-key del\")",
-      "2) install",
-      "3) uninstall",
-    ].join("\n")+"\noption: ";
-    let opt=await rl.question(info);
-    if(opt=="0")
-    {
-      console.log("\x1bc");
-      process.exit(0);
-    }
-    else if(opt=="1") await addRepository();
-    else if(opt=="2") await install();
-    else if(opt=="3") await uninstall();
-    else continue;
+    process.exit(0);
   }
-})();
+  else if(opt=="1") await addRepository();
+  else if(opt=="2") await install();
+  else if(opt=="3") await uninstall();
+  else continue;
+}
