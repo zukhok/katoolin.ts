@@ -123,6 +123,20 @@ async function uninstall()
 while(true)
 {
   console.log("\x1bc");
+  if(process.platform!="linux")
+  {
+    while(true)
+    {
+      let opt=await rl.question("only 4 Debian based Linux distros: ");
+      if(opt=="0")
+      {
+        console.log("\x1bc");
+        process.exit(0);
+      }
+      console.log("\x1bc");
+    }
+  }
+
   let info=
   [
     "home",

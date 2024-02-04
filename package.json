@@ -1,7 +1,7 @@
 {
-  "type": "module",
   "dependencies": {
-    "@types/node": "^20.10.7",
+    "@types/node": "^20.11.16",
     "zx": "^7.2.3"
-  }
+  },
+  "type": "module"
 }
