@@ -41,6 +41,7 @@ class Toollist
 
   bluetooth=
   [
+    "blue-hydra",
     "bluelog",
     "blueranger",
     "bluesnarfer",
@@ -98,6 +99,7 @@ class Toollist
 
   forensics=
   [
+    "7zip",
     "afflib-tools",
     "apktool",
     "autopsy",
@@ -148,12 +150,10 @@ class Toollist
     "nasm",
     "nasty",
     "ollydbg",
-    "p7zip-full",
     "parted",
     "pasco",
     "pdf-parser",
     "pdfid",
-    "pev",
     "plaso",
     "polenum",
     "pst-utils",
@@ -163,6 +163,7 @@ class Toollist
     "python3-dfwinreg",
     "python3-distorm3",
     "radare2",
+    "readpe",
     "recoverdm",
     "recoverjpeg",
     "reglookup",
@@ -466,13 +467,13 @@ class Toollist
     "inspectrum",
     "kalibrate-rtl",
     "multimon-ng",
-    "rtlsdr-scanner",
     "uhd-host",
     "uhd-images",
   ];
 
   sniffing_spoofing=
   [
+    "above",
     "bettercap",
     "darkstat",
     "dnschef",
