@@ -127,7 +127,7 @@ while(true)
   {
     while(true)
     {
-      let opt=await rl.question("only 4 Debian based Linux distros: ");
+      let opt=await rl.question("only 4 Debian based Linux distros, input 0 2 exit: ");
       if(opt=="0")
       {
         console.log("\x1bc");

@@ -14,7 +14,7 @@ Supporting the 996 prohibited license while not violating the GPLv2.0 license.
 
 ## Requirements
 
-- Latest node.js & globally installed typescript. (https://github.com/nvm-sh/nvm)
+- Latest [node.js](https://github.com/nvm-sh/nvm) & globally installed typescript. 
 - An Debian & its derivatives operating system.
 - Not supprot Redhat based distros.
 
@@ -56,4 +56,4 @@ B4 upgrade ur system, plz make sure u have removed all Kali-linux repositories i
 
 ## Have questions
 
-Plz visit https://github.com/zukhok/katoolin.ts/issues.
+Plz visit [issues](https://github.com/zukhok/katoolin.ts/issues).

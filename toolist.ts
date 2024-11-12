@@ -1,22 +1,22 @@
 class Toollist
 {
-  all:string[];
+  private all:string[];
 
-  top10=
+  private top10=
   [
     "aircrack-ng",
     "burpsuite",
-    "crackmapexec",
     "hydra",
     "john",
     "metasploit-framework",
+    "netexec",
     "nmap",
     "responder",
     "sqlmap",
     "wireshark",
   ];
 
-  "802_11"=
+  private "802_11"=
   [
     "aircrack-ng",
     "airgeddon",
@@ -39,7 +39,7 @@ class Toollist
     "wifite",
   ];
 
-  bluetooth=
+  private bluetooth=
   [
     "blue-hydra",
     "bluelog",
@@ -54,7 +54,7 @@ class Toollist
     "ubertooth",
   ];
 
-  crypto_stego=
+  private crypto_stego=
   [
     "aesfix",
     "aeskeyfind",
@@ -64,7 +64,7 @@ class Toollist
     "stegsnow",
   ];
 
-  database=
+  private database=
   [
     "jsql-injection",
     "mdbtools",
@@ -78,13 +78,13 @@ class Toollist
     "tnscmd10g",
   ];
 
-  detect=
+  private detect=
   [
     "grokevt",
     "sentrypeer",
   ];
 
-  exploitation=
+  private exploitation=
   [
     "armitage",
     "beef-xss",
@@ -97,7 +97,7 @@ class Toollist
     "termineter",
   ];
 
-  forensics=
+  private forensics=
   [
     "7zip",
     "afflib-tools",
@@ -189,8 +189,8 @@ class Toollist
     "truecrack",
     "undbx",
     "unhide",
-    "unrar",
     "unar",
+    "unrar",
     "upx-ucl",
     "vinetto",
     "wce",
@@ -201,7 +201,7 @@ class Toollist
     "yara",
   ];
 
-  fuzzing=
+  private fuzzing=
   [
     "afl++",
     "sfuzz",
@@ -209,13 +209,13 @@ class Toollist
     "wfuzz",
   ];
 
-  gpu=
+  private gpu=
   [
     "oclgausscrack",
     "truecrack",
   ];
 
-  hardware=
+  private hardware=
   [
     "binwalk",
     "cutecom",
@@ -229,7 +229,7 @@ class Toollist
     "rz-ghidra",
   ];
 
-  identify=
+  private identify=
   [
     "amass",
     "assetfinder",
@@ -249,11 +249,10 @@ class Toollist
     "zaproxy",
   ];
 
-  information_gathering=
+  private information_gathering=
   [
     "0trace",
     "arping",
-    "iputils-arping",
     "braa",
     "dmitry",
     "dnsenum",
@@ -270,6 +269,7 @@ class Toollist
     "hping3",
     "ike-scan",
     "intrace",
+    "iputils-arping",
     "irpas",
     "lbd",
     "legion",
@@ -302,7 +302,7 @@ class Toollist
     "wafw00f",
   ];
 
-  passwords=
+  private passwords=
   [
     "cewl",
     "chntpw",
@@ -319,7 +319,6 @@ class Toollist
     "hashcat-utils",
     "hashid",
     "hydra",
-    "hydra-gtk",
     "john",
     "johnny",
     "kali-tools-gpu",
@@ -355,7 +354,7 @@ class Toollist
     "wordlists",
   ];
 
-  post_exploitation=
+  private post_exploitation=
   [
     "backdoor-factory",
     "cymothoa",
@@ -382,7 +381,7 @@ class Toollist
     "weevely",
   ];
 
-  protect=
+  private protect=
   [
     "clamav",
     "cryptsetup",
@@ -391,7 +390,7 @@ class Toollist
     "fwbuilder",
   ];
 
-  recover=
+  private recover=
   [
     "ddrescue",
     "ext3grep",
@@ -403,7 +402,7 @@ class Toollist
     "undbx",
   ];
 
-  reporting=
+  private reporting=
   [
     "cutycapt",
     "dradis",
@@ -415,7 +414,7 @@ class Toollist
     "recordmydesktop",
   ];
 
-  respond=
+  private respond=
   [
     "ewf-tools",
     "ghidra",
@@ -426,7 +425,7 @@ class Toollist
     "netsniff-ng",
   ];
 
-  reverse_engineering=
+  private reverse_engineering=
   [
     "apktool",
     "bytecode-viewer",
@@ -443,7 +442,7 @@ class Toollist
     "rz-ghidra",
   ];
 
-  rfid=
+  private rfid=
   [
     "gnuradio",
     "libfreefare-bin",
@@ -455,7 +454,7 @@ class Toollist
     "rfdump",
   ];
 
-  sdr=
+  private sdr=
   [
     "chirp",
     "gnuradio",
@@ -471,7 +470,7 @@ class Toollist
     "uhd-images",
   ];
 
-  sniffing_spoofing=
+  private sniffing_spoofing=
   [
     "above",
     "bettercap",
@@ -501,7 +500,7 @@ class Toollist
     "yersinia",
   ]
 
-  social_engineering=
+  private social_engineering=
   [
     "backdoor-factory",
     "beef-xss",
@@ -511,7 +510,7 @@ class Toollist
     "veil",
   ];
 
-  voip=
+  private voip=
   [
     "enumiax",
     "iaxflood",
@@ -533,7 +532,7 @@ class Toollist
     "wireshark",
   ];
 
-  vulnerability=
+  private vulnerability=
   [
     "afl++",
     "bed",
@@ -574,7 +573,7 @@ class Toollist
     "yersinia",
   ];
 
-  web=
+  private web=
   [
     "apache-users",
     "apache2",
@@ -597,7 +596,6 @@ class Toollist
     "httprint",
     "httrack",
     "hydra",
-    "hydra-gtk",
     "jboss-autopwn",
     "joomscan",
     "jsql-injection",
@@ -656,7 +654,7 @@ class Toollist
     "zaproxy",
   ];
 
-  windows_resources=
+  private windows_resources=
   [
     "dbd",
     "dnschef",
@@ -676,7 +674,7 @@ class Toollist
     "windows-privesc-check",
   ];
 
-  wireless=
+  private wireless=
   [
     ...this["802_11"],
     ...this.bluetooth,

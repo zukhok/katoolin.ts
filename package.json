@@ -1,7 +1,7 @@
 {
   "dependencies": {
-    "@types/node": "^20.14.1",
-    "zx": "^8.1.2"
+    "@types/node": "^22.9.0",
+    "zx": "^8.2.1"
   },
   "type": "module"
 }
