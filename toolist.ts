@@ -1,9 +1,7 @@
-class Toollist
-{
-  private all:string[];
+class Toollist {
+  private all: string[];
 
-  private top10=
-  [
+  private top10 = [
     "aircrack-ng",
     "burpsuite",
     "hydra",
@@ -16,8 +14,7 @@ class Toollist
     "wireshark",
   ];
 
-  private "802_11"=
-  [
+  private "802_11" = [
     "aircrack-ng",
     "airgeddon",
     "asleap",
@@ -39,8 +36,7 @@ class Toollist
     "wifite",
   ];
 
-  private bluetooth=
-  [
+  private bluetooth = [
     "blue-hydra",
     "bluelog",
     "blueranger",
@@ -54,8 +50,7 @@ class Toollist
     "ubertooth",
   ];
 
-  private crypto_stego=
-  [
+  private crypto_stego = [
     "aesfix",
     "aeskeyfind",
     "ccrypt",
@@ -64,8 +59,7 @@ class Toollist
     "stegsnow",
   ];
 
-  private database=
-  [
+  private database = [
     "jsql-injection",
     "mdbtools",
     "oscanner",
@@ -78,14 +72,12 @@ class Toollist
     "tnscmd10g",
   ];
 
-  private detect=
-  [
+  private detect = [
     "grokevt",
     "sentrypeer",
   ];
 
-  private exploitation=
-  [
+  private exploitation = [
     "armitage",
     "beef-xss",
     "exploitdb",
@@ -97,8 +89,7 @@ class Toollist
     "termineter",
   ];
 
-  private forensics=
-  [
+  private forensics = [
     "7zip",
     "afflib-tools",
     "apktool",
@@ -201,22 +192,19 @@ class Toollist
     "yara",
   ];
 
-  private fuzzing=
-  [
+  private fuzzing = [
     "afl++",
     "sfuzz",
     "spike",
     "wfuzz",
   ];
 
-  private gpu=
-  [
+  private gpu = [
     "oclgausscrack",
     "truecrack",
   ];
 
-  private hardware=
-  [
+  private hardware = [
     "binwalk",
     "cutecom",
     "flashrom",
@@ -229,8 +217,7 @@ class Toollist
     "rz-ghidra",
   ];
 
-  private identify=
-  [
+  private identify = [
     "amass",
     "assetfinder",
     "cisco-auditing-tool",
@@ -249,8 +236,7 @@ class Toollist
     "zaproxy",
   ];
 
-  private information_gathering=
-  [
+  private information_gathering = [
     "0trace",
     "arping",
     "braa",
@@ -302,8 +288,7 @@ class Toollist
     "wafw00f",
   ];
 
-  private passwords=
-  [
+  private passwords = [
     "cewl",
     "chntpw",
     "cisco-auditing-tool",
@@ -354,8 +339,7 @@ class Toollist
     "wordlists",
   ];
 
-  private post_exploitation=
-  [
+  private post_exploitation = [
     "backdoor-factory",
     "cymothoa",
     "dbd",
@@ -381,8 +365,7 @@ class Toollist
     "weevely",
   ];
 
-  private protect=
-  [
+  private protect = [
     "clamav",
     "cryptsetup",
     "cryptsetup-initramfs",
@@ -390,8 +373,7 @@ class Toollist
     "fwbuilder",
   ];
 
-  private recover=
-  [
+  private recover = [
     "ddrescue",
     "ext3grep",
     "extundelete",
@@ -402,8 +384,7 @@ class Toollist
     "undbx",
   ];
 
-  private reporting=
-  [
+  private reporting = [
     "cutycapt",
     "dradis",
     "eyewitness",
@@ -414,8 +395,7 @@ class Toollist
     "recordmydesktop",
   ];
 
-  private respond=
-  [
+  private respond = [
     "ewf-tools",
     "ghidra",
     "guymager",
@@ -425,8 +405,7 @@ class Toollist
     "netsniff-ng",
   ];
 
-  private reverse_engineering=
-  [
+  private reverse_engineering = [
     "apktool",
     "bytecode-viewer",
     "clang",
@@ -442,8 +421,7 @@ class Toollist
     "rz-ghidra",
   ];
 
-  private rfid=
-  [
+  private rfid = [
     "gnuradio",
     "libfreefare-bin",
     "libnfc-bin",
@@ -454,8 +432,7 @@ class Toollist
     "rfdump",
   ];
 
-  private sdr=
-  [
+  private sdr = [
     "chirp",
     "gnuradio",
     "gqrx-sdr",
@@ -470,8 +447,7 @@ class Toollist
     "uhd-images",
   ];
 
-  private sniffing_spoofing=
-  [
+  private sniffing_spoofing = [
     "above",
     "bettercap",
     "darkstat",
@@ -498,10 +474,9 @@ class Toollist
     "wifi-honey",
     "wireshark",
     "yersinia",
-  ]
+  ];
 
-  private social_engineering=
-  [
+  private social_engineering = [
     "backdoor-factory",
     "beef-xss",
     "maltego",
@@ -510,8 +485,7 @@ class Toollist
     "veil",
   ];
 
-  private voip=
-  [
+  private voip = [
     "enumiax",
     "iaxflood",
     "inviteflood",
@@ -532,8 +506,7 @@ class Toollist
     "wireshark",
   ];
 
-  private vulnerability=
-  [
+  private vulnerability = [
     "afl++",
     "bed",
     "cisco-auditing-tool",
@@ -573,8 +546,7 @@ class Toollist
     "yersinia",
   ];
 
-  private web=
-  [
+  private web = [
     "apache-users",
     "apache2",
     "beef-xss",
@@ -654,8 +626,7 @@ class Toollist
     "zaproxy",
   ];
 
-  private windows_resources=
-  [
+  private windows_resources = [
     "dbd",
     "dnschef",
     "heartleech",
@@ -674,8 +645,7 @@ class Toollist
     "windows-privesc-check",
   ];
 
-  private wireless=
-  [
+  private wireless = [
     ...this["802_11"],
     ...this.bluetooth,
     ...this.rfid,
@@ -687,11 +657,10 @@ class Toollist
     "wireshark",
   ];
 
-  constructor()
-  {
-    this.all=[];
-    for(let key in this) if(key!="all"&&key!="top10") this.all.push(...(this[key] as string[]));
-    this.all=Array.from(new Set(this.all));
+  constructor() {
+    this.all = [];
+    for(let key in this) if(key != "all" && key != "top10") this.all.push(...(this[key] as string[]));
+    this.all = Array.from(new Set(this.all));
   }
 }
 
