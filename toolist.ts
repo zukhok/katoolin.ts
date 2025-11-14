@@ -56,6 +56,7 @@ class Toollist {
     "ccrypt",
     "outguess",
     "steghide",
+    "stegosuite",
     "stegsnow",
   ];
 
@@ -95,6 +96,7 @@ class Toollist {
     "apktool",
     "autopsy",
     "binwalk",
+    "binwalk3",
     "bulk-extractor",
     "bytecode-viewer",
     "cabextract",
@@ -206,6 +208,7 @@ class Toollist {
 
   private hardware = [
     "binwalk",
+    "binwalk3",
     "cutecom",
     "flashrom",
     "minicom",
@@ -286,6 +289,7 @@ class Toollist {
     "unicornscan",
     "urlcrazy",
     "wafw00f",
+    "zenmap",
   ];
 
   private passwords = [
@@ -297,7 +301,7 @@ class Toollist {
     "creddump7",
     "crunch",
     "fcrackzip",
-    "freerdp2-x11",
+    "freerdp3-x11",
     "gpp-decrypt",
     "hash-identifier",
     "hashcat",
@@ -340,7 +344,6 @@ class Toollist {
   ];
 
   private post_exploitation = [
-    "backdoor-factory",
     "cymothoa",
     "dbd",
     "dns2tcp",
@@ -417,6 +420,7 @@ class Toollist {
     "metasploit-framework",
     "ollydbg",
     "radare2",
+    "rizin",
     "rizin-cutter",
     "rz-ghidra",
   ];
@@ -477,7 +481,6 @@ class Toollist {
   ];
 
   private social_engineering = [
-    "backdoor-factory",
     "beef-xss",
     "maltego",
     "msfpc",
